@@ -1,19 +1,16 @@
 {
-  "name": "itasset",
-  "version": "0.0.0",
-  "private": true,
+  "name": "Api_sentiment",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "dev": "nodemon -r dotenv/config app.js"
   },
+  "repository": "https://github.com/daries/api-sequelize-postgres.git",
+  "author": "darie <darysp@gmail.com>",
+  "license": "MIT",
+  "private": null,
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "pg": "^7.11.0",
-    "pg-hstore": "^2.3.2",
-    "sequelize": "^5.8.6"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   }
 }
